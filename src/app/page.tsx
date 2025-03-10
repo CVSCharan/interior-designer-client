@@ -235,7 +235,9 @@ export default function Home() {
                     <p className="text-gray-500">{testimonial.title}</p>
                   </div>
                 </div>
-                <p className="text-gray-600 italic">"{testimonial.quote}"</p>
+                <p className="text-gray-600 italic">
+                  &ldquo;{testimonial.quote}&rdquo;
+                </p>
                 <div className="mt-4 flex text-indigo-500">
                   {[...Array(5)].map((_, i) => (
                     <svg
@@ -259,7 +261,7 @@ export default function Home() {
         <div className="max-w-2xl mx-auto text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
             <span className="block">Ready to transform your space?</span>
-            <span className="block">Let's start a conversation.</span>
+            <span className="block">Let&apos;s start a conversation.</span>
           </h2>
           <p className="mt-4 text-lg leading-6 text-indigo-200">
             Contact us today for a free consultation and let us help you create
