@@ -44,6 +44,7 @@ export default function ContactPage() {
         message: "",
       });
     } catch (_error) {
+      console.error(_error);
       setSubmitError(
         "There was an error submitting your message. Please try again."
       );
