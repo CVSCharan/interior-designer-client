@@ -43,7 +43,7 @@ export default function ContactPage() {
         subject: "",
         message: "",
       });
-    } catch (error) {
+    } catch (_error) {
       setSubmitError(
         "There was an error submitting your message. Please try again."
       );
@@ -70,8 +70,8 @@ export default function ContactPage() {
             Get in Touch
           </h1>
           <p className="mt-6 text-xl max-w-3xl">
-            We'd love to hear from you. Contact us to schedule a consultation or
-            learn more about our interior design services.
+            We&apos;d love to hear from you. Contact us to schedule a
+            consultation or learn more about our interior design services.
           </p>
         </div>
       </div>
@@ -379,8 +379,8 @@ export default function ContactPage() {
                         </div>
                         <div className="ml-3">
                           <p className="text-sm font-medium text-green-800">
-                            Thank you for your message! We'll get back to you
-                            soon.
+                            Thank you for your message! We&apos;ll get back to
+                            you soon.
                           </p>
                         </div>
                       </div>
