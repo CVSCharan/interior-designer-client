@@ -231,6 +231,9 @@ const Footer = () => {
               </ul>
             </div>
           </div>
+          <div className="text-center mt-6">
+            <p className="text-gray-500 text-sm">Developed by CVS CHARAN</p>
+          </div>
         </div>
       </div>
     </footer>
