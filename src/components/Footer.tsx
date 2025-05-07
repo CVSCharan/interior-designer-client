@@ -232,7 +232,16 @@ const Footer = () => {
             </div>
           </div>
           <div className="text-center mt-6">
-            <p className="text-gray-500 text-sm">Developed by CVS CHARAN</p>
+            <p className="text-gray-500 text-sm">
+              Developed with 💜 by{" "}
+              <a
+                href="https://charan-cvs.dev"
+                target="_blank"
+                className="text-indigo-400 hover:underline"
+              >
+                CVS CHARAN
+              </a>
+            </p>
           </div>
         </div>
       </div>
